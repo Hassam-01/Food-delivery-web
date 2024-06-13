@@ -6,10 +6,10 @@ import star from "../assets/star.png";
 
 export default function Header() {
   return (
-    <div className="md:flex justify-between hidden md:bg-[#edededc8] md:pl-2 md:mx-28 md:rounded-b-2xl">
+    <div className="lg:flex justify-between hidden md:bg-[#edededc8] md:pl-2 md:mx-28 md:rounded-b-2xl">
       <div className="flex justify-between items-center space-x-2 ">
         <img src={star} alt="" className="h-6 w-6" />
-        <p className="font-medium">
+        <p className="font-medium text-sm">
           Get 5% Off your first order,
           <span className="text-[#FC8A06] font-semibold"> Promo: ORDER5</span>
         </p>
@@ -17,8 +17,8 @@ export default function Header() {
       <div className="flex justify-between space-x-5 items-stretch">
         <div className="flex justify-between items-center space-x-3 font-medium">
           <MdLocationPin className="h-6 w-6 " />
-          <p className="text-[#03081F]">Regent Street, A4, A4201, London</p>
-          <a href="location" className="text-[#FC8A06] hover:border-b">
+          <p className="text-[#03081F] text-sm">Regent Street, A4, A4201, London</p>
+          <a href="location" className="text-[#FC8A06] hover:border-b text-sm">
             Change Location
           </a>
         </div>
@@ -27,7 +27,8 @@ export default function Header() {
             <FaShoppingBasket className="h-8 w-8" />
           </div>
           <div className="pr-3 pl-2  border-r flex items-center py-2">
-            <p>23</p>
+            {/* items in cart will receive from cart */}
+            <p>23</p> 
           </div>
           <div className="pr-3 pl-2 border-r flex items-center py-2">
             <p>Rs.100</p>
