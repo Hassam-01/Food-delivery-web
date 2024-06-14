@@ -34,7 +34,7 @@ export default function Navbar() {
             {link}
           </a>
         ))}
-        <button className="bg-[#03081F] text-white rounded-3xl px-4 py-2 text-sm ]">
+        <button className="bg-[#03081F] text-white rounded-3xl px-4 py-2 text-sm hover:bg-green-600 font-semibold transition-all duration-300">
           login/signup
         </button>
       </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
         ))}
         <button
           onClick={toggleMenu}
-          className="bg-[#03081F] text-white rounded-3xl px-4 py-2 block"
+          className="bg-[#03081F] text-white rounded-3xl px-4 py-2 block hover:bg-slate-100 hover:text-black"
         >
           login/signup
         </button>
