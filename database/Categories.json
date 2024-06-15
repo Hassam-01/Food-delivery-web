@@ -1,0 +1,46 @@
+[
+    {
+      "category_id": 1,
+      "category_name": "Burgers",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 150
+    },
+    {
+      "category_id": 2,
+      "category_name": "Pizza",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 200
+    },
+    {
+      "category_id": 3,
+      "category_name": "Salads",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 80
+    },
+    {
+      "category_id": 4,
+      "category_name": "Sushi",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 100
+    },
+    {
+      "category_id": 6,
+      "category_name": "Pasta",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 90
+    },
+    {
+      "category_id": 7,
+      "category_name": "Sandwiches",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 110
+    },
+
+    {
+      "category_id": 9,
+      "category_name" : "ABC",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2022/02/shutterstock_1773695441-min.jpg",
+      "restaurants": 85
+    }
+  ]
+  
