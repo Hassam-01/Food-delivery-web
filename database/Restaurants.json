@@ -1,0 +1,53 @@
+[
+    {
+      "restaurant_id": 1,
+      "restaurant_name": "The Hungry Owl",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 2,
+      "restaurant_name": "Gourmet Garden",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 3,
+      "restaurant_name": "Fusion Bites",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 4,
+      "restaurant_name": "Sizzle Grill",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 5,
+      "restaurant_name": "Mango Tango",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 6,
+      "restaurant_name": "Spice Route",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 7,
+      "restaurant_name": "Ocean Breeze",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 8,
+      "restaurant_name": "Taste of Italy",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 9,
+      "restaurant_name": "Flame Broil",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    },
+    {
+      "restaurant_id": 10,
+      "restaurant_name": "Café del Sol",
+      "image_url": "https://i.pinimg.com/564x/08/3b/2f/083b2fe2646cd064e3a294bb716810f9.jpg"
+    }
+  ]
+  
