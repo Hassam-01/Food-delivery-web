@@ -1,0 +1,170 @@
+[
+    {
+        "type": "sushi",
+        "id": 1,
+        "off_percentage": 15,
+        "restaurant_name": "Sushi Zen",
+        "image_url": "https://images.unsplash.com/photo-1553621042-f6e147245754"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 2,
+        "off_percentage": 20,
+        "restaurant_name": "Pizza Palace",
+        "image_url": "https://images.unsplash.com/photo-1594007650632-31cdbd2d88ed"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 3,
+        "off_percentage": 10,
+        "restaurant_name": "Fast Bites",
+        "image_url": "https://images.unsplash.com/photo-1571091718767-0a12fd7f7762"
+    },
+    {
+        "type": "vegan",
+        "id": 4,
+        "off_percentage": 25,
+        "restaurant_name": "Green Goodness",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38"
+    },
+    {
+        "type": "others",
+        "id": 5,
+        "off_percentage": 30,
+        "restaurant_name": "Global Delights",
+        "image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+    },
+    {
+        "type": "sushi",
+        "id": 6,
+        "off_percentage": 18,
+        "restaurant_name": "Sakura Sushi",
+        "image_url": "https://images.unsplash.com/photo-1562967916-eb82221dfb92"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 7,
+        "off_percentage": 12,
+        "restaurant_name": "Cheesy Slice",
+        "image_url": "https://images.unsplash.com/photo-1555992336-03a23c69fd35"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 8,
+        "off_percentage": 22,
+        "restaurant_name": "Burger Bliss",
+        "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    },
+    {
+        "type": "vegan",
+        "id": 9,
+        "off_percentage": 20,
+        "restaurant_name": "Plant Power",
+        "image_url": "https://images.unsplash.com/photo-1467453678172-1520ccbdd5d3"
+    },
+    {
+        "type": "others",
+        "id": 10,
+        "off_percentage": 35,
+        "restaurant_name": "World of Flavors",
+        "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+    },
+    {
+        "type": "sushi",
+        "id": 11,
+        "off_percentage": 17,
+        "restaurant_name": "Ocean Sushi",
+        "image_url": "https://images.unsplash.com/photo-1534070177569-85cdd5a9f99b"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 12,
+        "off_percentage": 14,
+        "restaurant_name": "Pepperoni Pizzeria",
+        "image_url": "https://images.unsplash.com/photo-1585238342028-797effcc6147"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 13,
+        "off_percentage": 18,
+        "restaurant_name": "Tasty Tacos",
+        "image_url": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+    },
+    {
+        "type": "vegan",
+        "id": 14,
+        "off_percentage": 28,
+        "restaurant_name": "Vegan Delight",
+        "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+        "type": "others",
+        "id": 15,
+        "off_percentage": 32,
+        "restaurant_name": "Fusion Feast",
+        "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "type": "sushi",
+        "id": 16,
+        "off_percentage": 16,
+        "restaurant_name": "Tokyo Rolls",
+        "image_url": "https://images.unsplash.com/photo-1596853593512-81642b1c85f7"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 17,
+        "off_percentage": 15,
+        "restaurant_name": "Grill & Chill",
+        "image_url": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+    },
+    {
+        "type": "Pizza & Fast Food",
+        "id": 18,
+        "off_percentage": 11,
+        "restaurant_name": "Quick Snacks",
+        "image_url": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+    },
+    {
+        "type": "vegan",
+        "id": 19,
+        "off_percentage": 22,
+        "restaurant_name": "Herbivore Haven",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?vegan"
+    },
+    {
+        "type": "others",
+        "id": 20,
+        "off_percentage": 27,
+        "restaurant_name": "Epicurean Eats",
+        "image_url": "https://images.unsplash.com/photo-1505253758473-1e92d8dc8a20"
+    },
+    {
+        "type": "vegan",
+        "id": 21,
+        "off_percentage": 22,
+        "restaurant_name": "ABC REST",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?vegan"
+    },
+    {
+        "type": "vegan",
+        "id": 22,
+        "off_percentage": 22,
+        "restaurant_name": " Haven",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?vegan"
+    },
+    {
+        "type": "vegan",
+        "id": 23,
+        "off_percentage": 22,
+        "restaurant_name": "Delight Restaurant",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?vegan"
+    },
+    {
+        "type": "vegan",
+        "id": 24,
+        "off_percentage": 22,
+        "restaurant_name": "Global Taste",
+        "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38"
+    }
+]

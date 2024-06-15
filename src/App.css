@@ -1,3 +1,24 @@
 .btnOffer {
   @apply bg-white border border-transparent hover:border-[#FC8A06] hover:text-[#FC8A06] transition-all duration-300 py-2 px-4 rounded-3xl text-sm overflow-hidden;
 }
+
+.shadow-left::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+  border-radius: inherit;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
