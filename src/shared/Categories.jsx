@@ -27,7 +27,7 @@ export default function Categories() {
     return (
     <div className="my-12 md:mx-28 mx-14 space-y-4">
       <div>
-        <h3 className="text-3xl font-bold ">Order.pk Popular Categories</h3>
+        <h3 className="text-2xl font-bold ">Order.pk Popular Categories</h3>
       </div>
       <div className="flex space-x-5">
         {
