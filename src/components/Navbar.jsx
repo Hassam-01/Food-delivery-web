@@ -20,8 +20,8 @@ export default function Navbar() {
   return (
     <div className="flex justify-between lg:mx-28 mt-12 items-center mx-12 space-x-14">
       <div>
-        <span className="text-black text-4xl font-bold">
-          ORDER.<span className="text-xl">pk</span>
+        <span className="text-black text-5xl font-bold">
+          Order<span className="text-sm bg-[#FC8A0C] text-black inline-block transform -rotate-90 align-middle  pr-1">.PK</span>
         </span>
       </div>
       <div className="hidden md:flex justify-between md:space-x-2 items-center lg:space-x-5">

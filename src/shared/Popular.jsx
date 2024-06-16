@@ -28,7 +28,7 @@ export default function Popular() {
     return (
     <div className="md:mx-28 mx-14 mt-8 space-y-2">
         <div>
-            <h3 className="text-black text-3xl font-semibold px-1 ">Popular Restaurants</h3>
+            <h3 className="text-black text-2xl font-bold px-1 ">Popular Restaurants</h3>
         </div>
         <div className="flex overflow-x-auto no-scrollbar space-x-4 ">
             {
