@@ -2,6 +2,14 @@
   @apply bg-white border border-transparent hover:border-[#FC8A06] hover:text-[#FC8A06] transition-all duration-300 py-2 px-4 rounded-3xl text-sm overflow-hidden;
 }
 
+.btnabout{
+  @apply  text-sm border border-transparent hover:border-[#FC8A0C] rounded-3xl transition-all duration-300 py-2 px-4 overflow-hidden hover:font-semibold;
+}
+
+.btnFAQ{
+  @apply font-bold text-xs hover:bg-[#FC8A0C] w-60 h-10 py-1 px-2 rounded-3xl transition-all duration-300;
+}
+
 .shadow-left::before{
   content: '';
   position: absolute;

@@ -1,5 +1,6 @@
 
 import './App.css'
+import About from './components/About'
 import FootBanner from './components/FootBanner'
 import Header from './components/Header'
 import Join from './components/Join'
@@ -21,6 +22,7 @@ function App() {
       <Popular/>
       <FootBanner/>
       <Join/>
+      <About/>
     </div>
   )
 }
