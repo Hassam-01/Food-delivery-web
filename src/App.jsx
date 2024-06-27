@@ -5,6 +5,7 @@ import FootBanner from './components/FootBanner'
 import Header from './components/Header'
 import Join from './components/Join'
 import Navbar from './components/Navbar'
+import Record from './components/Record'
 import Banner from './shared/Banner'
 import Categories from './shared/Categories'
 import Deal from './shared/Deal'
@@ -23,6 +24,7 @@ function App() {
       <FootBanner/>
       <Join/>
       <About/>
+      <Record/>
     </div>
   )
 }
