@@ -6,14 +6,21 @@ import clock from "../assets/Clock.png";
 
 import StarRating from "../Functions/StarRating";
 import { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector} from "react-redux";
 
-export default function RestBanner({ text1, text2_1, bgColor, time }) {
+export default function RestBanner({ bgColor, time }) {
     const [openTime, setOpenTime] = useState(null);
     // setOpenTime(time);
+    // const state = useSelector((state) => state.restaurants);
 
-    const RestaurantID = useSelector((state) => state.setID);
-    console.log("ID : "+RestaurantID);
+    
+    const state = useSelector((state)=> state.restaurants);
+    const RestaurantName = useSelector((state)=> state.restaurants.restaurantName);
+    const title = useSelector((state)=> state.restaurants.bannerTitle);
+    
+    console.log(RestaurantName + " "+ title+ " "+ state.restaurantName)
+    // const Restaurant = state.restaurantData;
+
     return (
     <div
       className={`mt-6 rounded-lg lg:mx-28 mx-12 relative bg-[#03081F] opacity-90 flex justify-center`}
@@ -24,7 +31,7 @@ export default function RestBanner({ text1, text2_1, bgColor, time }) {
             bgColor === "bg-black" ? "white" : "black"
           }`}
         >
-          {text1}
+          {title}
         </p>
         <p
           className={`text-5xl text-${
@@ -32,7 +39,7 @@ export default function RestBanner({ text1, text2_1, bgColor, time }) {
           } font-bold`}
         >
           {" "}
-          {text2_1}{" "}
+          {RestaurantName}{" "}
         </p>
         <div className="space-y-2">
           <div className="gap-4 flex">
@@ -54,7 +61,7 @@ export default function RestBanner({ text1, text2_1, bgColor, time }) {
         </div>
         <div className="text-black rounded-lg absolute bottom-2 text-center left-32 w-fit p-2 space-y-2 bg-white">
           <h3 className="text-3xl font-medium">3.4</h3>
-          <StarRating rating={3.7}/>
+          <StarRating rating={state.restaurantID != 0 ? 4.8 : 3.8}/>
           <p className="text-xs">1,360 reviews</p>
         </div>
       </div>
