@@ -9,7 +9,6 @@ export default function Deal() {
   const choose = (name) =>(
     setSelected(name)
   )
-  console.log(selected);
     return (
     <div className="mt-6 lg:mx-28 mx-12">
     <div className="flex justify-between">

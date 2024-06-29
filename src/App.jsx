@@ -1,32 +1,26 @@
+import "./App.css";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Cart from "./pages/Cart";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import Footer from "./shared/Footer";
 
-import './App.css'
-import About from './components/About'
-import FootBanner from './components/FootBanner'
-import Header from './components/Header'
-import Join from './components/Join'
-import Navbar from './components/Navbar'
-import Record from './components/Record'
-import Banner from './shared/Banner'
-import Categories from './shared/Categories'
-import Deal from './shared/Deal'
-import Popular from './shared/Popular'
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
-
   return (
-    <div className=''>
-      <Header/>
-      <Navbar/>
-      <Banner text2_1={"Feast Your Senses,"} text2_2={"Fast and Fresh"} text1={"Order Restaurant food, takeaway and groceries."} text3={"Enter a postcode to see what we deliver"} bgColor={"bg-black"}/>
-      <Deal/>
-      <Categories/>
-      <Popular/>
-      <FootBanner/>
-      <Join/>
-      <About/>
-      <Record/>
-    </div>
-  )
+    <Router>
+        <Header />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/restaurants" element={<Shop/>} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+        <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;

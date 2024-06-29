@@ -1,8 +1,22 @@
 import { useEffect, useState } from "react"
+import { useSelector } from "react-redux";
+import { setRestaurnt } from "../action/Index";
+import { useAppDispatch } from "../Store";
 
 export default function Popular() {
     
     const [data, setData] = useState([]);
+
+    const dispatch = useAppDispatch();
+    const state = useSelector((state) => state.restaurants
+);
+
+    const sendID =(id)=>{
+      dispatch(setRestaurnt(id))
+      console.log(id+" dispatched")
+      console.log(state)
+    }
+
 
   useEffect(() => {
    const endpoints = [
@@ -20,7 +34,6 @@ export default function Popular() {
 
     Promise.all(endpoints.map(endpoint => fetch(endpoint).then(response => response.json())))
     .then(results =>{
-        console.log('Results:', results);
         const combData = results.flat()
         setData(combData);
     })
@@ -33,7 +46,7 @@ export default function Popular() {
         <div className="flex overflow-x-auto no-scrollbar space-x-4 ">
             {
                 data.map(item =>( 
-                    <div key={item.restaurant_id} className=" flex-shrink-0 rounded-lg shadow-lg">
+                    <div key={item.restaurant_id} className=" flex-shrink-0 rounded-lg shadow-lg " onClick={() => sendID(item.restaurant_id)}>
                         <div className="bg-[#FC8A0A] w-48 text-center rounded-xl">
                         <img src={item.image_url} alt="" className="h-52 w-48"/>
                         <p className="text-white text-sm font-semibold p-2">{item.restaurant_name}</p>

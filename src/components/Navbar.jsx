@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { GrMenu } from "react-icons/gr";
 import { HiXMark } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const navItems = [
-    { link: "Home", path: "/home" },
+    { link: "Home", path: "/" },
     { link: "Menu", path: "/menu" },
     { link: "Offers", path: "/offers" },
     { link: "Restaurants", path: "/restaurants" },
@@ -26,13 +27,13 @@ export default function Navbar() {
       </div>
       <div className="hidden md:flex justify-between md:space-x-2 items-center lg:space-x-5">
         {navItems.map(({ link, path }) => (
-          <a
-            href={path}
+          <Link
+            to={path}
             key={link}
             className="font-semibold hover:bg-[#FC8A06] transition-all duration-300 hover:text-white hover:rounded-3xl px-4 py-2"
           >
             {link}
-          </a>
+          </Link>
         ))}
         <button className="bg-[#03081F] text-white rounded-3xl px-4 py-2 text-sm hover:bg-green-600 font-semibold transition-all duration-300">
           login/signup
@@ -52,14 +53,14 @@ export default function Navbar() {
         } transition-all duration-500`}
       >
         {navItems.map(({ link, path }) => (
-          <a
+          <Link
             key={link}
-            href={path}
+            to={path}
             onClick={toggleMenu}
             className="text-black block hover:text-gray-300"
           >
             {link}
-          </a>
+          </Link>
         ))}
         <button
           onClick={toggleMenu}
