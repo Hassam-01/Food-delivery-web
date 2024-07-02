@@ -12,6 +12,42 @@ export const setRestaurntDataAction = (restaurant) =>{
     }
 }
 
+
+export const setReviewPageAction = (value) => {
+    return {
+        type: "SETPAGE",
+        payload: value,
+
+    }
+}
+
+export const setMaxReviewPageAction = (maxPage) => {
+    return{
+        type: "SETMAXPAGE",
+        payload: maxPage,
+    }
+}
+export const setReviewAction = (reviews) => {
+    return{
+        type: "SETREVIEWS",
+        payload: reviews,
+    }
+}
+export const setTotalRatingAction = (totalRating) => {
+    return{
+        type: "SETTOTALRATING",
+        payload: totalRating,
+    }
+}
+export const setTotalReviewAction = (totalReviews) => {
+    return{
+        type: "SETTOTALREVIEWS",
+        payload: totalReviews,
+    }
+}
+
+
+
 // export const setTitleAction = () =>{
 //     return{
 //         type: "SETTITLE",

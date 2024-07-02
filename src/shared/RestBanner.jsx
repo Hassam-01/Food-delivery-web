@@ -18,7 +18,6 @@ export default function RestBanner({ bgColor, time }) {
     const RestaurantName = useSelector((state)=> state.restaurants.restaurantName);
     const title = useSelector((state)=> state.restaurants.bannerTitle);
     
-    console.log(RestaurantName + " "+ title+ " "+ state.restaurantName)
     // const Restaurant = state.restaurantData;
 
     return (

@@ -1,0 +1,565 @@
+{
+  "reviews": [
+    {
+      "customer_name": "Alice Johnson",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "24th September 2024",
+      "rating": 5,
+      "review": "The Classic Burger is amazing! Juicy and perfectly cooked, it was a delight from the first bite."
+    },
+    {
+      "customer_name": "Bob Smith",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "25th September 2024",
+      "rating": 4,
+      "review": "The Margarita Pizza had fresh ingredients and a nice crust. Overall, a very satisfying meal."
+    },
+    {
+      "customer_name": "Carol Davis",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "26th September 2024",
+      "rating": 3,
+      "review": "The Chicken Wings were a bit too spicy for my taste, but the blue cheese dip helped balance the flavor."
+    },
+    {
+      "customer_name": "David Lee",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "27th September 2024",
+      "rating": 4,
+      "review": "Loved the Beef Tacos! They were flavorful and the portion size was just right."
+    },
+    {
+      "customer_name": "Eve Clark",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "28th September 2024",
+      "rating": 5,
+      "review": "The Chocolate Brownie was divine! Rich and perfectly paired with vanilla ice cream."
+    },
+    {
+      "customer_name": "Frank Wright",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "29th September 2024",
+      "rating": 4,
+      "review": "The Lemonade was refreshing and had the right balance of sweet and tangy."
+    },
+    {
+      "customer_name": "Grace Hall",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "30th September 2024",
+      "rating": 3,
+      "review": "The Caesar Salad was fresh but could use a bit more dressing for added flavor."
+    },
+    {
+      "customer_name": "Henry Scott",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "1st October 2024",
+      "rating": 4,
+      "review": "Grilled Cheese Sandwich was comforting and satisfying. Perfect for a quick bite."
+    },
+    {
+      "customer_name": "Ivy Campbell",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "2nd October 2024",
+      "rating": 5,
+      "review": "The Chicken Quesadilla was packed with flavor and the salsa was a great addition."
+    },
+    {
+      "customer_name": "Jack Turner",
+      "restaurant_name": "The Hungry Owl",
+      "restaurant_id": 1,
+      "date": "3rd October 2024",
+      "rating": 5,
+      "review": "The Crispy Fries were excellent! Perfectly salted and crispy just as advertised."
+    },
+    {
+      "customer_name": "Kelly Martinez",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "24th September 2024",
+      "rating": 5,
+      "review": "Vegetarian Delight Burger was a pleasant surprise. Flavorful and satisfying."
+    },
+    {
+      "customer_name": "Liam Brown",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "25th September 2024",
+      "rating": 4,
+      "review": "Garlic Parmesan Fries were crispy and the garlic flavor was just right."
+    },
+    {
+      "customer_name": "Mia Wilson",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "26th September 2024",
+      "rating": 3,
+      "review": "The Falafel Wrap was decent, but I wish it had more hummus."
+    },
+    {
+      "customer_name": "Noah Taylor",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "27th September 2024",
+      "rating": 5,
+      "review": "The Greek Salad was fresh and the feta cheese was top-notch."
+    },
+    {
+      "customer_name": "Olivia Anderson",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "28th September 2024",
+      "rating": 4,
+      "review": "Mushroom Risotto was creamy and delicious, though a bit on the pricey side."
+    },
+    {
+      "customer_name": "Peyton Harris",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "29th September 2024",
+      "rating": 4,
+      "review": "Bruschetta was a great starter. Fresh tomatoes and perfectly grilled bread."
+    },
+    {
+      "customer_name": "Quinn Lewis",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "30th September 2024",
+      "rating": 3,
+      "review": "Spinach and Artichoke Dip was good but could use more seasoning."
+    },
+    {
+      "customer_name": "Ryan Walker",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "1st October 2024",
+      "rating": 4,
+      "review": "Pasta Primavera had a nice variety of vegetables and a tasty sauce."
+    },
+    {
+      "customer_name": "Sophie King",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "2nd October 2024",
+      "rating": 5,
+      "review": "The Fruit Smoothie was refreshing and perfect for a hot day."
+    },
+    {
+      "customer_name": "Tom Green",
+      "restaurant_name": "Gourmet Garden",
+      "restaurant_id": 2,
+      "date": "3rd October 2024",
+      "rating": 4,
+      "review": "Apple Pie was a classic dessert done right. Flaky crust and sweet filling."
+    },
+    {
+      "customer_name": "Uma Roberts",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "24th September 2024",
+      "rating": 4,
+      "review": "The Spicy Chicken Burger was a delight with just the right amount of heat."
+    },
+    {
+      "customer_name": "Vince Carter",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "25th September 2024",
+      "rating": 3,
+      "review": "Sweet Potato Fries were good, but the portion size was smaller than expected."
+    },
+    {
+      "customer_name": "Wendy Brooks",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "26th September 2024",
+      "rating": 5,
+      "review": "Shrimp Tacos were amazing! Fresh and flavorful with a great kick."
+    },
+    {
+      "customer_name": "Xander Adams",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "27th September 2024",
+      "rating": 4,
+      "review": "The Asian Chicken Salad was light and refreshing, perfect for lunch."
+    },
+    {
+      "customer_name": "Yara Evans",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "28th September 2024",
+      "rating": 5,
+      "review": "BBQ Pork Sliders were delicious! The pork was tender and the sauce was great."
+    },
+    {
+      "customer_name": "Zane Cooper",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "29th September 2024",
+      "rating": 4,
+      "review": "Teriyaki Beef Skewers were tasty, though I wish the portion was a bit larger."
+    },
+    {
+      "customer_name": "Abby Jenkins",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "30th September 2024",
+      "rating": 4,
+      "review": "The Mango Salsa was fresh and the perfect complement to my meal."
+    },
+    {
+      "customer_name": "Ben Parker",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "1st October 2024",
+      "rating": 5,
+      "review": "Thai Curry was spicy and flavorful, just how I like it."
+    },
+    {
+      "customer_name": "Cathy Foster",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "2nd October 2024",
+      "rating": 4,
+      "review": "Green Tea Ice Cream was a unique and delicious dessert option."
+    },
+    {
+      "customer_name": "Dan Quinn",
+      "restaurant_name": "Fusion Bites",
+      "restaurant_id": 3,
+      "date": "3rd October 2024",
+      "rating": 4,
+      "review": "Lemon Iced Tea was refreshing and not too sweet, perfect with my meal."
+    },
+    {
+      "customer_name": "Ella Howard",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "24th September 2024",
+      "rating": 5,
+      "review": "BBQ Burger was fantastic! The BBQ sauce and onion rings were a great combo."
+    },
+    {
+      "customer_name": "Frank Lee",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "25th September 2024",
+      "rating": 4,
+      "review": "Onion Rings were crispy and well-seasoned, a great side dish."
+    },
+    {
+      "customer_name": "Grace Miller",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "26th September 2024",
+      "rating": 3,
+      "review": "The Veggie Burger was okay, but could use more flavor."
+    },
+    {
+      "customer_name": "Henry Wilson",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "27th September 2024",
+      "rating": 4,
+      "review": "Spicy BBQ Wings were great! Perfect level of heat and very juicy."
+    },
+    {
+      "customer_name": "Isla Thomas",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "28th September 2024",
+      "rating": 5,
+      "review": "The Triple Cheese Pizza was loaded with cheese, just how I like it."
+    },
+    {
+      "customer_name": "Jack White",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "29th September 2024",
+      "rating": 4,
+      "review": "Loaded Nachos were delicious and perfect for sharing with friends."
+    },
+    {
+      "customer_name": "Kara Johnson",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "30th September 2024",
+      "rating": 3,
+      "review": "The Chili Cheese Fries were good but could have used more chili."
+    },
+    {
+      "customer_name": "Liam Evans",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "1st October 2024",
+      "rating": 5,
+      "review": "Ribeye Steak was cooked to perfection. Tender and flavorful."
+    },
+    {
+      "customer_name": "Mia Rodriguez",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "2nd October 2024",
+      "rating": 4,
+      "review": "Chicken Alfredo Pasta was creamy and delicious, a comforting meal."
+    },
+    {
+      "customer_name": "Noah Lewis",
+      "restaurant_name": "Sizzle Grill",
+      "restaurant_id": 4,
+      "date": "3rd October 2024",
+      "rating": 5,
+      "review": "The Tiramisu was a sweet ending to a great meal. Light and creamy."
+    },
+    {
+      "customer_name": "Alice Brown",
+      "restaurant_name": "Mango Tango",
+      "restaurant_id": 5,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Mango Salad was refreshing and perfectly balanced with a hint of mint. A must-try!"
+    },
+    {
+      "customer_name": "Brian Clark",
+      "restaurant_name": "Mango Tango",
+      "restaurant_id": 5,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "The Mango Smoothie was delicious and not too sweet. Great for a hot day."
+    },
+    {
+      "customer_name": "Chloe Davis",
+      "restaurant_name": "Mango Tango",
+      "restaurant_id": 5,
+      "date": "6th October 2024",
+      "rating": 4,
+      "review": "Mango Chicken Curry was flavorful, though it could use a bit more spice."
+    },
+    {
+      "customer_name": "David Evans",
+      "restaurant_name": "Mango Tango",
+      "restaurant_id": 5,
+      "date": "7th October 2024",
+      "rating": 5,
+      "review": "Mango Cheesecake was a delightful dessert. Creamy and full of mango flavor."
+    },
+    {
+      "customer_name": "Ella Foster",
+      "restaurant_name": "Mango Tango",
+      "restaurant_id": 5,
+      "date": "8th October 2024",
+      "rating": 4,
+      "review": "Mango Salsa was a great appetizer. Fresh and tangy, it paired well with the chips."
+    },
+    {
+      "customer_name": "Frank Green",
+      "restaurant_name": "Spice Route",
+      "restaurant_id": 6,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Butter Chicken was rich and creamy, with just the right amount of spice."
+    },
+    {
+      "customer_name": "Grace Hill",
+      "restaurant_name": "Spice Route",
+      "restaurant_id": 6,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "Lamb Vindaloo was flavorful, but a bit too spicy for my taste. Still enjoyed it!"
+    },
+    {
+      "customer_name": "Henry King",
+      "restaurant_name": "Spice Route",
+      "restaurant_id": 6,
+      "date": "6th October 2024",
+      "rating": 3,
+      "review": "The Naan Bread was soft and fresh, but the Chicken Tikka Masala was just average."
+    },
+    {
+      "customer_name": "Isla Lopez",
+      "restaurant_name": "Spice Route",
+      "restaurant_id": 6,
+      "date": "7th October 2024",
+      "rating": 4,
+      "review": "Samosas were crispy and filled with a tasty potato and pea mixture. Great starter."
+    },
+    {
+      "customer_name": "Jack Moore",
+      "restaurant_name": "Spice Route",
+      "restaurant_id": 6,
+      "date": "8th October 2024",
+      "rating": 5,
+      "review": "The Mango Lassi was refreshing and the perfect drink to cool down with after a spicy meal."
+    },
+    {
+      "customer_name": "Kelly Nelson",
+      "restaurant_name": "Ocean Breeze",
+      "restaurant_id": 7,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Grilled Salmon was cooked to perfection, with a delicious lemon butter sauce."
+    },
+    {
+      "customer_name": "Liam Owens",
+      "restaurant_name": "Ocean Breeze",
+      "restaurant_id": 7,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "The Seafood Paella was packed with fresh seafood, though a bit too salty for my liking."
+    },
+    {
+      "customer_name": "Mia Perry",
+      "restaurant_name": "Ocean Breeze",
+      "restaurant_id": 7,
+      "date": "6th October 2024",
+      "rating": 3,
+      "review": "Fish and Chips were decent, but the batter was a bit too thick."
+    },
+    {
+      "customer_name": "Noah Quinn",
+      "restaurant_name": "Ocean Breeze",
+      "restaurant_id": 7,
+      "date": "7th October 2024",
+      "rating": 4,
+      "review": "The Lobster Bisque was creamy and flavorful, but could have used more lobster pieces."
+    },
+    {
+      "customer_name": "Olivia Roberts",
+      "restaurant_name": "Ocean Breeze",
+      "restaurant_id": 7,
+      "date": "8th October 2024",
+      "rating": 5,
+      "review": "The Shrimp Cocktail was fresh and the cocktail sauce had a nice kick. A great appetizer."
+    },
+    {
+      "customer_name": "Paul Scott",
+      "restaurant_name": "Taste of Italy",
+      "restaurant_id": 8,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Margherita Pizza had a perfect crust and fresh ingredients. A true taste of Italy."
+    },
+    {
+      "customer_name": "Quinn Taylor",
+      "restaurant_name": "Taste of Italy",
+      "restaurant_id": 8,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "Fettuccine Alfredo was creamy and delicious, though a bit heavy on the garlic."
+    },
+    {
+      "customer_name": "Ryan Usher",
+      "restaurant_name": "Taste of Italy",
+      "restaurant_id": 8,
+      "date": "6th October 2024",
+      "rating": 3,
+      "review": "The Lasagna was hearty, but could use more seasoning."
+    },
+    {
+      "customer_name": "Sophie Vincent",
+      "restaurant_name": "Taste of Italy",
+      "restaurant_id": 8,
+      "date": "7th October 2024",
+      "rating": 5,
+      "review": "The Tiramisu was the highlight of the meal. Light, creamy, and delicious."
+    },
+    {
+      "customer_name": "Tom Watson",
+      "restaurant_name": "Taste of Italy",
+      "restaurant_id": 8,
+      "date": "8th October 2024",
+      "rating": 4,
+      "review": "Bruschetta was a great starter. Fresh tomatoes and a perfect amount of garlic."
+    },
+    {
+      "customer_name": "Uma Xavier",
+      "restaurant_name": "Flame Broil",
+      "restaurant_id": 9,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Ribeye Steak was cooked to perfection. Juicy and flavorful."
+    },
+    {
+      "customer_name": "Victor Young",
+      "restaurant_name": "Flame Broil",
+      "restaurant_id": 9,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "The BBQ Ribs were tender and the sauce was delicious, though a bit messy."
+    },
+    {
+      "customer_name": "Wendy Zane",
+      "restaurant_name": "Flame Broil",
+      "restaurant_id": 9,
+      "date": "6th October 2024",
+      "rating": 3,
+      "review": "The Grilled Chicken was a bit dry, but the side of mashed potatoes was great."
+    },
+    {
+      "customer_name": "Xander Abbott",
+      "restaurant_name": "Flame Broil",
+      "restaurant_id": 9,
+      "date": "7th October 2024",
+      "rating": 4,
+      "review": "The Pulled Pork Sandwich was tasty, though the bun was a bit too soft."
+    },
+    {
+      "customer_name": "Yara Bennett",
+      "restaurant_name": "Flame Broil",
+      "restaurant_id": 9,
+      "date": "8th October 2024",
+      "rating": 5,
+      "review": "The Grilled Vegetables were a perfect side. Fresh and well-seasoned."
+    },
+    {
+      "customer_name": "Zane Campbell",
+      "restaurant_name": "Café del Sol",
+      "restaurant_id": 10,
+      "date": "4th October 2024",
+      "rating": 5,
+      "review": "The Avocado Toast was delicious and the presentation was beautiful."
+    },
+    {
+      "customer_name": "Abby Davis",
+      "restaurant_name": "Café del Sol",
+      "restaurant_id": 10,
+      "date": "5th October 2024",
+      "rating": 4,
+      "review": "The Cappuccino was rich and creamy, a perfect start to my day."
+    },
+    {
+      "customer_name": "Ben Edwards",
+      "restaurant_name": "Café del Sol",
+      "restaurant_id": 10,
+      "date": "6th October 2024",
+      "rating": 3,
+      "review": "The Pancakes were fluffy, but could use more syrup."
+    },
+    {
+      "customer_name": "Cara Fisher",
+      "restaurant_name": "Café del Sol",
+      "restaurant_id": 10,
+      "date": "7th October 2024",
+      "rating": 4,
+      "review": "The Quiche was light and flavorful, though the crust was a bit too hard."
+    },
+    {
+      "customer_name": "Dan Gray",
+      "restaurant_name": "Café del Sol",
+      "restaurant_id": 10,
+      "date": "8th October 2024",
+      "rating": 5,
+      "review": "The Berry Smoothie Bowl was a refreshing and healthy breakfast option."
+    }
+  
+  ]
+}

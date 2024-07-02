@@ -1,17 +1,22 @@
 import { useSelector } from "react-redux";
 import menuImage from "../assets/menuitem.png";
 import plus from "../assets/Plus.png";
+import MenuBar from "./MenuBar";
+import Timing from "./Timing";
+import Map from "./Map";
+import Reviews from "./Reviews";
 
 export default function Menu() {
   const restaurant = useSelector((state) => state.restaurants);
-  console.log(restaurant);
 
   return (
+    <div>{ restaurant.restaurantData.menu_items && 
+    <MenuBar/>}
     <div className="md:mx-28 mx-14 pt-8">
       {restaurant.restaurantData.menu_items && (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 ">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 ">
           {restaurant.restaurantData.menu_items.map((item) => {
-            return (
+              return (
               <div key={item.name} className="shadow-lg pt-7 pb-6 px-6 flex justify-between h-48 rounded-lg">
                 <div className="w-1/2 flex flex-col justify-between space-y-3">
                   <h4 className="font-medium text-lg">{item.name}</h4>
@@ -26,9 +31,13 @@ export default function Menu() {
                 </div>
               </div>
             );
-          })}
+            })}
         </div>
       )}
+    </div>
+    <Timing/>
+    <Map/>
+    <Reviews/>
     </div>
   );
 }
