@@ -1,14 +1,17 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import menuImage from "../assets/menuitem.png";
 import plus from "../assets/Plus.png";
 import MenuBar from "./MenuBar";
 import Timing from "./Timing";
 import Map from "./Map";
 import Reviews from "./Reviews";
+import { addToCartAction, setCartDetailAction } from "../action/Index";
 
 export default function Menu() {
   const restaurant = useSelector((state) => state.restaurants);
 
+  const dispatch = useDispatch();
+  
   return (
     <div>{ restaurant.restaurantData.menu_items && 
     <MenuBar/>}
@@ -25,7 +28,8 @@ export default function Menu() {
                 </div>
                 <div className="relative h-fit w-fit">
                   <img src={menuImage} alt="" className="z-10 h-36 "/>
-                  <div className="h-16 w-16 absolute  flex items-center justify-center rounded-tl-3xl bg-white bg-opacity-90 bottom-0 right-0">
+                  <div className="h-16 w-16 absolute  flex items-center justify-center rounded-tl-3xl bg-white bg-opacity-90 bottom-0 right-0"
+                  onClick={() => {dispatch(addToCartAction(item)), dispatch(setCartDetailAction())}}>
                     <img src={plus} alt="" className="h-12 w-12 py-2 px-2 z-20" />
                   </div>
                 </div>

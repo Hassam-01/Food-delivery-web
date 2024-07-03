@@ -53,17 +53,26 @@ export const setPaymentModeAction = (paymentMode) =>{
     }
 }
 
-
-
-// export const setTitleAction = () =>{
-//     return{
-//         type: "SETTITLE",
-//     }
-// }
-
-// export const seRestaurantNameAction = (name) =>{
-//     return{
-//         type: "SETTITLE",
-//         payload: restaurant
-//     }
-// }
+export const addToCartAction = (item) =>{
+    return{
+        type: "ADDTOCART",
+        payload: item,
+    }
+}
+export const removeFromCartAction = (item) =>{
+    return{
+        type: "REMOVEFROMCART",
+        payload: item,
+    }
+}
+export const emptyCartAction = (item) =>{
+    return{
+        type: "EMPTYCART",
+        payload: item,
+    }
+}
+export const setCartDetailAction = () =>{
+    return{
+        type: "SETCARTDETAIL",
+    }
+}

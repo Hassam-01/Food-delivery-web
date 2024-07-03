@@ -4,8 +4,13 @@ import { LuArrowDownCircle } from "react-icons/lu";
 
 import star from "../assets/star.png";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 export default function Header() {
+
+  const cartDetails = useSelector(state => state.restaurants.cartDetail);
+  const totalP = cartDetails.reduce((acc, item) => acc + item.totalPrice, 0);
+  const totalQ = cartDetails.reduce((acc, item) => acc + item.totalQuantity, 0)
   return (
     <div className="lg:flex justify-between hidden md:bg-[#edededc8] md:pl-2 md:mx-28 md:rounded-b-2xl">
       <div className="flex justify-between items-center space-x-2 ">
@@ -29,12 +34,12 @@ export default function Header() {
             <FaShoppingBasket className="h-8 w-8" />
           </div>
          </Link>
-          <div className="pr-3 pl-2  border-r flex items-center py-2">
+          <div className="pr-3 pl-2  border-r flex items-center text-center py-2">
             {/* items in cart will receive from cart */}
-            <p>23</p> 
+            <p className="text-center">{totalQ}</p> 
           </div>
           <div className="pr-3 pl-2 border-r flex items-center py-2">
-            <p>Rs.100</p>
+            <p>Rs. {totalP.toFixed(2)}</p>
           </div>
           <div className="pr-3 pl-2 h-full flex items-center py-2">
             <LuArrowDownCircle className="h-8 w-8" />
