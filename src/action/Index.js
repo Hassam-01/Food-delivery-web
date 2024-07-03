@@ -46,6 +46,13 @@ export const setTotalReviewAction = (totalReviews) => {
     }
 }
 
+export const setPaymentModeAction = (paymentMode) =>{
+    return {
+        type: "SETPAYMENTMODE",
+        payload: paymentMode,
+    }
+}
+
 
 
 // export const setTitleAction = () =>{

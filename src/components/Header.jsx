@@ -3,6 +3,7 @@ import { FaShoppingBasket } from "react-icons/fa";
 import { LuArrowDownCircle } from "react-icons/lu";
 
 import star from "../assets/star.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -23,9 +24,11 @@ export default function Header() {
           </a>
         </div>
         <div className="flex justify-between bg-[#028643] rounded-b-2xl text-white items-cente space-x-3  h-ful items-stretch">
+         <Link to="/cart">
           <div className="pr-3 pl-2 border-r flex items-center py-2">
             <FaShoppingBasket className="h-8 w-8" />
           </div>
+         </Link>
           <div className="pr-3 pl-2  border-r flex items-center py-2">
             {/* items in cart will receive from cart */}
             <p>23</p> 

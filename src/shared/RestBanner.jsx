@@ -14,10 +14,9 @@ export default function RestBanner({ bgColor, time }) {
     // const state = useSelector((state) => state.restaurants);
 
     
-    const state = useSelector((state)=> state.restaurants);
-    const RestaurantName = useSelector((state)=> state.restaurants.restaurantName);
-    const title = useSelector((state)=> state.restaurants.bannerTitle);
-    
+    const RestaurantName = useSelector((state)=>state.restaurants.restaurantName);
+    const title = useSelector((state)=>state.restaurants.bannerTitle);
+    const rating = useSelector((state) => state.restaurants.totalRating);
     // const Restaurant = state.restaurantData;
 
     return (
@@ -60,7 +59,7 @@ export default function RestBanner({ bgColor, time }) {
         </div>
         <div className="text-black rounded-lg absolute bottom-2 text-center left-32 w-fit p-2 space-y-2 bg-white">
           <h3 className="text-3xl font-medium">3.4</h3>
-          <StarRating rating={state.restaurantID != 0 ? 4.8 : 3.8}/>
+          <StarRating rating={rating}/>
           <p className="text-xs">1,360 reviews</p>
         </div>
       </div>

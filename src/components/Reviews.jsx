@@ -13,8 +13,6 @@ function Reviews() {
   const totalRating = useSelector((state) => state.restaurants.totalRating);
   const totalReviews = useSelector((state) => state.restaurants.totalReviews);
 
-  console.log(totalRating);
-
   const handlePageChnage = (value) => {
     dispatch(setReviewPageAction(value));
     

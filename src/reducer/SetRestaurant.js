@@ -8,6 +8,7 @@ const initialState = {
     reviews: [],
     totalRating: 0,
     totalReviews:0,
+    paymentMode: "COD",
 };
 
 const setID = (state = initialState, action) => {
@@ -58,6 +59,13 @@ const setID = (state = initialState, action) => {
             return {
                 ...state,
                 totalRating: action.payload
+            }
+        }
+        case "SETPAYMENTMODE": {
+            return{
+                ...state,
+                paymentMode: action.payload
+                
             }
         }
         default:
